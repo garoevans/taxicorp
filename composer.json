@@ -1,0 +1,25 @@
+{
+    "name": "gevans/taxicorp",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Gareth Evans",
+            "email": "garoevans@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Garoevans\\TaxiCorp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Garoevans\\TaxiCorp\\Tests\\": "tests/unit/src"
+        }
+    }
+}
