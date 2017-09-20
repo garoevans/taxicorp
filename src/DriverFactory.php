@@ -10,6 +10,6 @@ class DriverFactory
 
     public function getDrivers()
     {
-        return [new Driver, new Driver];
+        return [$this->getDriver(), $this->getDriver()];
     }
 }
